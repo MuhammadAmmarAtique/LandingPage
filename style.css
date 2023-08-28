@@ -1,0 +1,226 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI';
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+/* Main styling start here: */
+
+.main
+{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    position: relative;  
+    /* Setting Parent's div position to relative so that its childern will not move around.  */
+}
+
+/* Navbar styling start here: */
+
+nav
+{
+    height: 80px; 
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.nav-part2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+}
+
+.logo
+{
+    height: 5vw;
+    width: 5vw;
+    background-image: url(Images/logo.png);
+    background-size: cover;
+}
+
+
+nav h4
+{
+    font-size: 1.2vw;
+}
+
+.nav-part2 > i
+{
+    display: none;
+}
+
+.nav-part2 > button
+{
+    border-radius: 0.5vw;
+    padding: 0.7vw 1.5vw;
+    text-align: center;
+    font-size: 1.2vw;
+    background-color: #007DFE;
+    border: none;
+    color:white;
+    font-weight:500;
+}
+
+/* Content div styling */
+
+/*Calc function does arithematic operations here we can substract % with px,Rememner to must add space in left and right side of operator.*/
+
+.content
+{
+    height:calc(100% - 80px) ; 
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+/* Left siede div styling */
+.left
+{
+    height: 100%;
+    width: 55%;
+    /* background-color: crimson; */
+    padding:4vw 4vw;
+    
+}
+
+.left h1
+{
+    font-size: 4vw;
+    margin-bottom: 2vw;
+    line-height: 4.5vw;
+}
+
+.left h1 span
+{
+    color: #007DFE;
+}
+
+.left p
+{
+    font-size: 1.2vw;
+    font-style: italic;
+    margin-bottom: 2vw;
+    color:#666;
+}
+.left button
+{
+    border-radius: 0.5vw;
+    padding: 1vw 2vw;
+    text-align: center;
+    font-size: 1.2vw;
+    background-color: #007DFE;
+    border: none;
+    color:white;
+    font-weight:500;
+}
+
+/* right sided div styling */
+
+.right
+{
+    height: 100%;
+    width: 45%;
+    padding: 5px;
+ 
+}
+
+.right img
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+/* Media Queries styling*/
+
+@media  (max-width:599px) 
+{
+  nav
+  {
+    /* background-color: lightseagreen; */
+    /* color: white; */
+    padding: 0 2vw;
+    height: 60px;
+  }
+
+ .nav-part2 > h4
+ {
+  display: none;
+ }  
+ 
+ .nav-part2 > button
+ {
+  display: none;
+
+ }
+
+ .nav-part2 > i
+{
+    display: block;
+    font-size: 5vw;
+}
+
+
+.logo
+{
+    height: 10vw;
+    width: 10vw;
+}
+
+.content
+{
+    height: calc(100% - 60px);
+    flex-direction: column;
+}
+
+.left
+{
+  width: 100%;
+  height: 50%;
+  /* background-color: green; */
+ 
+}
+.right
+{
+  width: 100%;
+  height: 50%;
+}
+
+.left h1 
+{
+    font-size: 6vw;
+    line-height: 7vw;
+}
+
+.left p
+{
+    font-size: 3vw;
+}
+
+.left button 
+{
+    font-size: 2vw;
+}
+
+
+
+}
