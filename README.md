@@ -36,5 +36,3 @@ This project was created as a demonstration of building a mobile-responsive land
 ### License
 
 This project is intended for educational purposes and is not affiliated with any existing websites. It showcases the use of HTML and CSS for creating mobile-responsive web pages. All resources used are subject to their respective licenses.
-
-Replace placeholder URLs and paths with the actual URLs and paths of the resources you used in your project.
