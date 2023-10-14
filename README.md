@@ -4,7 +4,7 @@ This repository contains a project that demonstrates the creation of a mobile-re
 
 ### Preview
 
-![Mobile Responsive Landing Page Preview](Images/preview.png)
+![Mobile Responsive Landing Page Preview](Images/screenshot.png)
 
 ### Features
 
